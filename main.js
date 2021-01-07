@@ -22,7 +22,7 @@ function draw(){
             console.log('SONG1 IS PLAYING');
             song1PlayStatus=true;
         }
-        if(song1.isPlaying==false){
+        if(song1.isPlaying()==false){
             console.log("SONG1 ISN'T PLAYING");
             song1PlayStatus=false;
             document.getElementById('song_name').innerHTML='Song: MDK - Press Start (Dex Arson Remix)';
@@ -35,7 +35,7 @@ function draw(){
             console.log('SONG2 IS PLAYING');
             song2PlayStatus=true;
         }
-        if(song2.isPlaying==false){
+        if(song2.isPlaying()==false){
             console.log("SONG2 ISN'T PLAYING");
             song2PlayStatus=false;
             document.getElementById('song_name').innerHTML='Song: F-777 Theory Of Everything 3';
